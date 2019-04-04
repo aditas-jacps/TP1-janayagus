@@ -9,15 +9,31 @@
 .header, h1 {
     font-family: "IBM Plex Mono", monospace;
     color: #FF5733;
+    text-align: center;
 }
 
 .main-banner .menu-list {
     text-decoration: none;
     list-style: none;
     display: flex; 
+    text-align: center;
 }
 
-.main-banner .menu {
+.main-banner .menu-list {
     padding: 10px;
     color: #000000;
+    text-align: center;
+}
+
+.carrusel {
+    display: flex;
+}
+
+.img1 {
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    background-size: contain;
+    margin: 10px 10px;
+
 }
