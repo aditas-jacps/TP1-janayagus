@@ -1,12 +1,40 @@
-ul li {
-    list-style: none;
-    
-}
-.header {
 
+.container {
+    margin: auto;
+    overflow: hidden;
+    width: 90%;
+    min-width: 600px;
+    max-width: 900px;
 }
 
-.footer {
+.header, h1 {
     font-family: "IBM Plex Mono", monospace;
-    font-size: 10px;
+    color: #FF5733;
+    text-align: center;
+}
+
+.main-banner .menu-list {
+    text-decoration: none;
+    list-style: none;
+    display: flex; 
+    text-align: center;
+}
+
+.main-banner .menu {
+    padding: 10px;
+    color: #000000;
+    text-align: center;
+}
+
+.carrusel {
+    display: flex;
+}
+
+.img1 {
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    background-size: contain;
+    margin: 10px 10px;
+
 }
