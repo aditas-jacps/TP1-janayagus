@@ -1,3 +1,23 @@
-.header {
+.container {
+    margin: auto;
+    overflow: hidden;
+    width: 90%;
+    min-width: 600px;
+    max-width: 900px;
+}
 
+.header, h1 {
+    font-family: "IBM Plex Mono", monospace;
+    color: #FF5733;
+}
+
+.main-banner .menu-list {
+    text-decoration: none;
+    list-style: none;
+    display: flex; 
+}
+
+.main-banner .menu {
+    padding: 10px;
+    color: #000000;
 }
