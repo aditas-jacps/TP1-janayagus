@@ -19,6 +19,18 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+ul {
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fab {
+    margin:5px;
+}
+
 .container {
     margin: auto;
     overflow: hidden;
@@ -107,7 +119,6 @@ time, mark, audio, video {
 }
 
 .social-stats {
-    list-style:none;
     display:flex;
     justify-content: space-between;
     width: 20%;
@@ -140,4 +151,26 @@ time, mark, audio, video {
     font-size: 10px;
     text-decoration: none;
     margin-top:5%;
+}
+
+/*footer*/
+
+.footer-social {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 15px;
+    border-bottom: 1px solid rgba(153, 151, 151, 0.932);
+    padding-bottom: 5px;
+}
+
+
+.footer-social  a {
+    color:grey;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+
 }
