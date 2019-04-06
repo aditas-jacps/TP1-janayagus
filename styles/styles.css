@@ -15,7 +15,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 
@@ -30,6 +29,8 @@ time, mark, audio, video {
 
 .header, h1 {
     font-family: "IBM Plex Mono", monospace;
+    font-size: 32px;
+    margin-top: 16px;
     color: #FF5733;
     text-align: center;
     justify-content: center;
@@ -38,6 +39,8 @@ time, mark, audio, video {
 .main-banner .menu-list {
     list-style: none;
     display: flex; 
+    margin-top: 16px;
+    font-size: 16px;
     text-align: center;
     justify-content: center;
     font-family: "IBM Plex Mono", monospace;
@@ -93,18 +96,14 @@ time, mark, audio, video {
     border-radius: 24px;
 }
 
-
-<<<<<<< HEAD
-=======
-}
-
 /*article*/
 
-.articles {
+.articles .container {
     width: 75%;
     margin-left:5%;
     font-family: "IBM Plex Mono", monospace;
 }
+
 .article-1, .article-2 {
     display: flex;
     border-top: 1px solid rgba(153, 151, 151, 0.932);
@@ -112,8 +111,6 @@ time, mark, audio, video {
     padding-bottom: 3%;
     padding-right: 5%;
     height:150px;
-
-
 }
 
 .article-img {
@@ -124,14 +121,11 @@ time, mark, audio, video {
 
 .info-article {
     margin-left:5%;
-
-
 }
 
 .article-autor-date {
     display:flex;
 }
-
 
 .info-article-header { 
     display:flex;
@@ -150,8 +144,6 @@ time, mark, audio, video {
     display:flex;
     justify-content: space-between;
     width: 20%;
-
-
 }
 
 .article-date {
@@ -168,7 +160,6 @@ time, mark, audio, video {
 
 }
 
-
 .article-btn {
     border-radius: 50px;
     color: rgb(238, 101, 124);
@@ -180,4 +171,3 @@ time, mark, audio, video {
     text-decoration: none;
     margin-top:5%;
 }
->>>>>>> dbab121c6e9e8b9784cfc737873d610d43aad733
