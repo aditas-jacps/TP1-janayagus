@@ -5,25 +5,30 @@
     width: 90%;
     min-width: 600px;
     max-width: 900px;
+    font-family: "IBM Plex Mono", monospace;
 }
 
 .header, h1 {
     font-family: "IBM Plex Mono", monospace;
     color: #FF5733;
     text-align: center;
+    justify-content: center;
 }
 
 .main-banner .menu-list {
-    text-decoration: none;
     list-style: none;
     display: flex; 
     text-align: center;
+    justify-content: center;
+    font-family: "IBM Plex Mono", monospace;
 }
 
 .main-banner .menu {
     padding: 10px;
     color: #000000;
     text-align: center;
+    text-decoration: none;
+    list-style: none;
 }
 
 .carrusel {
@@ -36,5 +41,36 @@
     overflow: hidden;
     background-size: contain;
     margin: 10px 10px;
-
 }
+
+.menu-platos .menu-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-platos .menu-box div {
+    position: relative;
+    margin: 16px 16px;
+}
+
+.menu-platos .menu-box a {
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border: 1px solid #CCD1D1;
+    padding: 0 48px;
+    position: absolute;
+    top: 72px;
+    right: 74px;
+}
+
+.menu-platos .menu-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+}
+
+
