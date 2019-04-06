@@ -1,3 +1,23 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 
 .container {
     margin: auto;
@@ -37,4 +57,87 @@
     background-size: contain;
     margin: 10px 10px;
 
+}
+
+/*article*/
+
+.articles {
+    width: 75%;
+    margin-left:5%;
+    font-family: "IBM Plex Mono", monospace;
+}
+.article-1, .article-2 {
+    display: flex;
+    border-top: 1px solid rgba(153, 151, 151, 0.932);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+    height:150px;
+
+
+}
+
+.article-img {
+    border-radius: 40px;
+    width:200px;
+    height:125px;
+}
+
+.info-article {
+    margin-left:5%;
+
+
+}
+
+.article-autor-date {
+    display:flex;
+}
+
+
+.info-article-header { 
+    display:flex;
+    justify-content: space-between;
+    font-size: 10px;
+    padding:3%;
+}
+
+.article-autor {
+    border-right: 1px solid rgba(153, 151, 151, 0.932);
+    padding-right: 2%;
+}
+
+.social-stats {
+    list-style:none;
+    display:flex;
+    justify-content: space-between;
+    width: 20%;
+
+
+}
+
+.article-date {
+    padding-left: 2%;
+}
+
+.article-titles {
+    color: rgb(243, 158, 46);
+}
+
+.article-recipe {
+    font-size: 10px;
+    color: grey;
+
+}
+
+
+.article-btn {
+    border-radius: 50px;
+    color: rgb(238, 101, 124);
+    background-color: pink;
+    padding: 3%;
+    display: block;
+    width: 12%;
+    font-size: 10px;
+    text-decoration: none;
+    margin-top:5%;
 }
