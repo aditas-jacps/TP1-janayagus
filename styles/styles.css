@@ -104,6 +104,15 @@ time, mark, audio, video {
     font-family: "IBM Plex Mono", monospace;
 }
 
+
+
+/*article*/
+
+.articles {
+    width: 75%;
+    margin-left:5%;
+    font-family: "IBM Plex Mono", monospace;
+}
 .article-1, .article-2 {
     display: flex;
     border-top: 1px solid rgba(153, 151, 151, 0.932);
