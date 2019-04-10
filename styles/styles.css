@@ -18,6 +18,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+a {
+    text-decoration: none;
+}
 .container {
     margin: auto;
     overflow: hidden;
@@ -94,6 +97,43 @@ time, mark, audio, video {
     width: 100%;
     height: auto;
     border-radius: 24px;
+}
+
+/*video-bio*/
+
+.video-bio {
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.bio {
+    width: 200px;
+}
+
+.bio-title-bottom {
+    background-color: pink;
+    color:  rgb(238, 101, 124);
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.bio-image {
+    border-radius:70px;
+    border: 3px solid rgba(153, 151, 151, 0.932);
+    margin:5px;
+}
+
+.bio-text {
+    color:grey;
+    text-align: center;
+    font-size:10px;
+    margin-bottom: 3px;
+}
+
+.bio h3 {
+    text-align: center;
 }
 
 /*article*/
