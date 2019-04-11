@@ -21,6 +21,10 @@ time, mark, audio, video {
 a {
     text-decoration: none;
 }
+
+ul {
+    list-style:none;
+}
 .container {
     margin: auto;
     overflow: hidden;
@@ -67,6 +71,31 @@ a {
     overflow: hidden;
     background-size: contain;
     margin: 10px 10px;
+    position:relative;
+    overflow:hidden;
+    }
+
+/*Animación del carrousel*/
+
+.carrousel-animation {
+    display:none;
+}
+
+.img1:hover .carrousel-animation {
+
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+    background-color: rgba(218, 127, 75, 0.664);
+    position:absolute;
+    bottom:0.5px;
+    transition: bottom 0.5s ease-out;
+    
+}
+
+.carrousel-animation-social {
+    display:flex;
+    justify-content: space-between;
+    font-size:10px;
 }
 
 .menu-platos .menu-box {
@@ -219,4 +248,26 @@ a {
     font-size: 10px;
     text-decoration: none;
     margin-top:5%;
+}
+
+/*footer*/
+
+.footer-social {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 15px;
+    border-bottom: 1px solid rgba(153, 151, 151, 0.932);
+    padding-bottom: 5px;
+}
+
+
+.footer-social  a {
+    color:grey;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+
 }
