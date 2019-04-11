@@ -36,6 +36,11 @@ time, mark, audio, video {
     justify-content: center;
 }
 
+.main-banner {
+    display: flex;
+    justify-content: center;
+}
+
 .main-banner .menu-list {
     list-style: none;
     display: flex; 
@@ -46,7 +51,11 @@ time, mark, audio, video {
     font-family: "IBM Plex Mono", monospace;
 }
 
-.main-banner .menu {
+.menu-list :hover {
+    color: #FF5733;
+}
+
+.menu-list li a {
     padding: 10px;
     color: #000000;
     text-align: center;
@@ -54,8 +63,26 @@ time, mark, audio, video {
     list-style: none;
 }
 
+.menu-list, li a {
+    float: left;
+}
+
+.menu-list li ul {
+    display: none;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.menu-list, li:hover > ul {
+    display: block;
+    z-index: 2;
+}
+
 .carrusel {
     display: flex;
+    z-index: 1;
 }
 
 .img1 {
@@ -64,6 +91,7 @@ time, mark, audio, video {
     overflow: hidden;
     background-size: contain;
     margin: 10px 10px;
+    z-index: 1;
 }
 
 .menu-platos .menu-box {
@@ -86,8 +114,13 @@ time, mark, audio, video {
     border: 1px solid #CCD1D1;
     padding: 0 48px;
     position: absolute;
-    top: 72px;
-    right: 74px;
+    top: 45%;
+    right: 22%;
+}
+
+.menu-platos .menu-box a :hover {
+
+    background-color: #FF5733;
 }
 
 .menu-platos .menu-box img {
