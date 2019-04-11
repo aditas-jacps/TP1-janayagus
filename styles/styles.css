@@ -63,6 +63,7 @@ ul {
 
 .carrusel {
     display: flex;
+    overflow:hidden;
 }
 
 .img1 {
@@ -74,10 +75,14 @@ ul {
     overflow:hidden;
     }
 
+    .img1 img {
+        width:100%
+    }
+
 /*Animación del carrousel*/
 
-.carrousel-animation {
-    bottom:-100%
+.carrousel-animation{
+    bottom:-100%;
 }
 
 .img1:hover .carrousel-animation {
@@ -86,15 +91,20 @@ ul {
     color: white;
     background-color: rgba(218, 127, 75, 0.664);
     position:absolute;
-    bottom:100%;
-    transition: bottom 0.5s ease-out;
+    bottom:1%;
+    transition: bottom 0.3s ease-out;
+    font-size:12px;
+    padding:8px;
+    text-align:center;
     
 }
 
 .carrousel-animation-social {
     display:flex;
     justify-content: space-between;
-    font-size:10px;
+    font-size:9px;
+   padding: 8px;
+    
 }
 
 .menu-platos .menu-box {
