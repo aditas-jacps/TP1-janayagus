@@ -68,7 +68,6 @@ ul {
 .img1 {
     width: 25%;
     height: auto;
-    overflow: hidden;
     background-size: contain;
     margin: 10px 10px;
     position:relative;
@@ -78,7 +77,7 @@ ul {
 /*Animación del carrousel*/
 
 .carrousel-animation {
-    display:none;
+    bottom:-100%
 }
 
 .img1:hover .carrousel-animation {
@@ -87,7 +86,7 @@ ul {
     color: white;
     background-color: rgba(218, 127, 75, 0.664);
     position:absolute;
-    bottom:0.5px;
+    bottom:100%;
     transition: bottom 0.5s ease-out;
     
 }
