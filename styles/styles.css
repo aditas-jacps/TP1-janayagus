@@ -169,6 +169,7 @@ i {
 
 .menu-box a:hover {
     background-color: #FF5733;
+    font-weight: bold;
 }
 
 .menu-platos .menu-box img {
