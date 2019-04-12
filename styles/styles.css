@@ -55,6 +55,10 @@ i {
     padding: 24px;
 }
 
+.main-banner .menu-mobile {
+    display:none;
+}
+
 .main-banner .menu-list {
     list-style: none;
     display: flex; 
@@ -335,6 +339,24 @@ i {
         overflow: hidden;
     }
 
+    .menu-mobile {
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 50px;
+        width: 100%;
+        background-color: #FF5733;
+        margin: 5px;
+        padding: 5px;
+        color: white;
+    }
+
+    .menu-mobile i {
+        margin-top:5px;
+    }
+  
+    .main-banner .menu-list {
+        display:none;
+    }
     .carrusel {
         display: block;
         width: 100%;
