@@ -170,8 +170,9 @@ i {
     right: 22%;
 }
 
-.menu-platos .menu-box a :hover {
+.menu-platos .menu-box a:hover {
     background-color: #FF5733;
+    font-weight: bold;
 }
 
 .menu-platos .menu-box img {
