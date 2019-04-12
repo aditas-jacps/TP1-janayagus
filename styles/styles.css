@@ -330,10 +330,6 @@ i {
 
 @media only screen and (max-width: 400px) {
 
-body {
-    width: 250px;
-}
-    
 .img1 {
     width: 100%;
     background-size: contain;
@@ -388,7 +384,12 @@ body {
     padding: 0 48px;
     position: absolute;
     top: 45%;
-    left: 10%; 
+    left: 20%; 
+}
+
+.article-titles {
+    margin-top: 15%;
+    color: #000000;
 }
 
 .box-2, .box-3 {

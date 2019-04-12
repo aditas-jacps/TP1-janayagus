@@ -182,9 +182,7 @@ ul.ingredientes {
 
 @media only screen and (max-width: 400px) {
 
-body {
-    width: 250px;    
-}
+
 
 .container {
     margin: 0 auto;
@@ -209,47 +207,48 @@ body {
   
 .main-banner .menu-list {
     display:none;
-    }
+}
 
-    .img-banner {
-        width:80%;
-        margin-left:25%;
-    }
+.img-banner {
+    width:80%;
+    margin-left:25%;
+}
 
-    .img-banner img {
-        width: 100%;
-        height: auto;
-    }    
+.img-banner img {
+    width: 100%;
+    height: auto;
+}    
 
-    .home-archive {
-        width:100%;
-        font-size: 10px;
-        margin-left:20px;
-    }
+.home-archive {
+    width:100%;
+    font-size: 10px;
+    margin-left:20px;
+}
 
-    .receta-img {
-        border-radius:40px;
-        width: 60%;
-        margin: 5px;
-    }
+.receta-img {
+    border-radius:40px;
+    width: 60%;
+    margin: 5px;
+}
 
-    .info-article-header {
-        display: flex;
-        flex-direction: row;
-        font-size: 10px; 
-        max-width: 250px;
-        margin-left:20px;
-    }
+.info-article-header {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px; 
+    max-width: 250px;
+    margin-left:20px;
+}
 
 
-    .receta .texto-receta {
-        display: block;
-        color: grey;
-        width: 60%;
-        margin-bottom:5px;
-        margin-left:3px;
-    }
-    ul.ingredientes {
+.receta .texto-receta {
+    display: block;
+    color: grey;
+    width: 60%;
+    margin-bottom:5px;
+    margin-left:3px;
+}
+
+ul.ingredientes {
         margin-top: 24px;
         color: grey;
         list-style: circle;
