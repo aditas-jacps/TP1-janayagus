@@ -63,7 +63,6 @@ ul {
 
 .carrusel {
     display: flex;
-    overflow:hidden;
 }
 
 .img1 {
@@ -71,12 +70,15 @@ ul {
     height: auto;
     background-size: contain;
     margin: 10px 10px;
-    position:relative;
+    position: relative;
     overflow:hidden;
     }
 
+    
+
     .img1 img {
-        width:100%
+        width:100%;
+    
     }
 
 /*Animación del carrousel*/
@@ -92,7 +94,7 @@ ul {
     background-color: rgba(218, 127, 75, 0.664);
     position:absolute;
     bottom:1%;
-    transition: bottom 0.3s ease-out;
+    transition: bottom 0.5s ease-out;
     font-size:12px;
     padding:8px;
     text-align:center;
@@ -103,7 +105,7 @@ ul {
     display:flex;
     justify-content: space-between;
     font-size:9px;
-   padding: 8px;
+   padding: 6px;
     
 }
 
