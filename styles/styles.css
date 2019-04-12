@@ -23,7 +23,7 @@ a {
     color: #000000;
 }
 
-<<<<<<< HEAD
+
 ul {
     list-style:none;
 }
@@ -31,8 +31,7 @@ ul {
 i {
     color:grey
 }
-=======
->>>>>>> db5762e6a6e8568f996fba68f18857dd0c7c8e3d
+
 .container {
     margin: auto;
     overflow: hidden;
@@ -298,11 +297,10 @@ i {
     margin-top:5%;
 }
 
-<<<<<<< HEAD
+
 /*footer*/
 
-=======
->>>>>>> db5762e6a6e8568f996fba68f18857dd0c7c8e3d
+
 .footer-social {
     font-family: "IBM Plex Mono", monospace;
     font-size: 12px;
@@ -312,10 +310,6 @@ i {
     padding-bottom: 5px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> db5762e6a6e8568f996fba68f18857dd0c7c8e3d
 .footer-social  a {
     color:grey;
 }
@@ -323,9 +317,5 @@ i {
 .footer-nav {
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
+}
 
-}
-=======
-}
->>>>>>> db5762e6a6e8568f996fba68f18857dd0c7c8e3d
