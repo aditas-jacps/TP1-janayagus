@@ -22,6 +22,11 @@ a {
     text-decoration: none;
 }
 
+i {
+    color:grey;
+    margin:2px;
+}
+
 .banner {
     width: 100%;
     height: auto;
@@ -47,6 +52,9 @@ a {
     justify-content: center;
 }
 
+.main-banner-mobile {
+    display:none;
+}
 .header, .main-banner {
     display: flex;
     justify-content: center;
@@ -165,3 +173,118 @@ ul.ingredientes {
     justify-content: space-between;
 
 }
+
+.footer-nav-mobile {
+    display: none;
+}
+
+/*Media query*/
+
+@media only screen and (max-width: 400px) {
+
+    body {
+        width: 250px;
+    
+    }
+
+    .container {
+        margin: 0 auto;
+        justify-content: center;
+        overflow: hidden;
+        font-family: "IBM Plex Mono", monospace;}
+
+        .main-banner-mobile {
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 50px;
+        width: 100%;
+        background-color: #FF5733;
+        padding: 5px;
+        color: white;
+        margin-left:10%;
+
+    }
+
+    .menu-mobile i {
+        margin-top:5px;
+    }
+  
+    .main-banner .menu-list {
+        display:none;
+    }
+
+    .img-banner {
+        width:80%;
+        margin-left:25%;
+    }
+
+    .img-banner img {
+        width: 100%;
+        height: auto;
+    }    
+
+    .home-archive {
+        width:100%;
+        font-size: 10px;
+        margin-left:20px;
+    }
+
+    .receta-img {
+        border-radius:40px;
+        width: 60%;
+        margin: 5px;
+    }
+
+    .info-article-header {
+        display: flex;
+        flex-direction: row;
+        font-size: 10px; 
+        max-width: 250px;
+        margin-left:20px;
+    }
+
+
+    .receta .texto-receta {
+        display: block;
+        color: grey;
+        width: 60%;
+        margin-bottom:5px;
+        margin-left:3px;
+    }
+    ul.ingredientes {
+        margin-top: 24px;
+        color: grey;
+        list-style: circle;
+        margin-left: 30px;
+    
+}
+
+    .cita {
+        width: 60%;
+        border-left: 2px solid #FF5733;
+        margin: 5px;
+        padding: 5px;
+    }
+
+
+       .footer-nav {
+        display:none;
+       
+        }
+    
+        .footer-nav-mobile {
+        display: flex;
+        justify-content: space-between;
+        list-style:none;
+        margin-left: 20px;
+        }
+    
+
+
+
+
+
+
+
+
+ }
