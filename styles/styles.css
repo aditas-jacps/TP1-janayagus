@@ -25,6 +25,10 @@ a {
 ul {
     list-style:none;
 }
+
+i {
+    color:grey
+}
 .container {
     margin: auto;
     overflow: hidden;
@@ -63,21 +67,21 @@ ul {
 
 .carrusel {
     display: flex;
-}
+       
+    }
 
 .img1 {
     width: 25%;
-    height: auto;
+    height: 380px;
     background-size: contain;
     margin: 10px 10px;
     position: relative;
     overflow:hidden;
+    
     }
 
-    
-
     .img1 img {
-        width:100%;
+        width:90%;
     
     }
 
@@ -98,6 +102,7 @@ ul {
     font-size:12px;
     padding:8px;
     text-align:center;
+    width:85%
     
 }
 
